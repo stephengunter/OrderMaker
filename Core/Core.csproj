@@ -35,8 +35,22 @@
     <Reference Include="Concord.API.Future.Client">
       <HintPath>..\..\..\..\..\..\..\CONCORDS\Concord.API.Future.Client64\Concord.API.Future.Client.dll</HintPath>
     </Reference>
+    <Reference Include="CSAPIComm">
+      <HintPath>..\..\..\..\..\..\..\OnrichApi\CSAPIComm.dll</HintPath>
+    </Reference>
+    <Reference Include="CSTrader">
+      <HintPath>..\..\..\..\..\..\..\OnrichApi\CSTrader.dll</HintPath>
+    </Reference>
     <Reference Include="HNTradeAPI">
       <HintPath>..\..\..\..\..\..\..\HNTradeAPI(V19.9.6.0)\HNTradeAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.CGCAPIATLLib">
+      <HintPath>..\..\..\..\..\..\..\OnrichApi\Interop.CGCAPIATLLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.FSCAPIATLLib">
+      <HintPath>..\..\..\..\..\..\..\OnrichApi\Interop.FSCAPIATLLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -78,6 +92,7 @@
     <Compile Include="Providers\FakeOrderMaker.cs" />
     <Compile Include="Providers\HuaNanDDSC.cs" />
     <Compile Include="Providers\IOrderMaker.cs" />
+    <Compile Include="Providers\Onrich.cs" />
     <Compile Include="Security\AESEncrypt.cs" />
     <Compile Include="Security\CryptoGraphy.cs" />
     <Compile Include="Services\PositionManager.cs" />

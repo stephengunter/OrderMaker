@@ -15,6 +15,8 @@ namespace WinApp
         [STAThread]
         static void Main()
         {
+            
+
             var settings = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None)
                                                  .AppSettings.Settings;
 

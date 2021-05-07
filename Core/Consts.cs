@@ -10,7 +10,8 @@ namespace Core
     {
         CONCORD = 0,
         HUA_NAN = 1,
-        FAKE = 2
+        ONRICH = 2,
+        FAKE = 3
     }
 
 
